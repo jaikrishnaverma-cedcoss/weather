@@ -42,6 +42,35 @@ font-size: 2rem;
     padding: 2%;
     margin: 20px;
 }
+.Sunny{
+    background:url('../public/field-gedbbf26bc_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.Clear{
+    background: url('../public/ss.jpg');
+    background-size: cover;
+}
+.drizzle,.rain
+{
+    background: url('../public/as.jpg');
+}
+.Mist
+{
+    background: url('../public/Mist.jpg');
+    background-size: cover;
+}
+.cloudy,.Cloudy{
+    background: url('../public/sunset-g3b2233554_1920.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+.Overcast{
+    background: url('../public/clouds-g58336bec8_640.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

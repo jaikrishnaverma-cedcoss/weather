@@ -37,7 +37,7 @@ const Task1 = () => {
     <h1> Pleses wait some time.... </h1> </div>;
   return (
     <>
-      <div className="col brd20 dbg p1 full main1 flexSB flexAIC">
+      <div className={`col brd20 dbg p1 full main1 flexSB flexAIC ${state.items.current.condition.text}`}>
         <form className="row main1Upper w99 flexAIC flexSB">
           <button style={{ background: "transparent", color: "white" }}><i class="fa fa-bars" aria-hidden="true"></i></button>
           <p className='city'>{items.location.name}<span className="state">/{items.location.region}</span><span className="country">/{items.location.country}</span></p>
