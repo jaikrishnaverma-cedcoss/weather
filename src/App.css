@@ -1,0 +1,284 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+.dbtn{
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 0px;
+  border:2px solid #00a1f2;
+  color: white;
+  background-color: #00a1f2;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.rowRev{
+  flex-direction: row-reverse;
+}
+.vw{
+  width: 100vw;
+}
+.dbg{
+  background: rgb(4,89,233);
+  background: linear-gradient(0deg, rgba(4,89,233,1) 0%, rgba(9,223,249,1) 100%);
+  color: white;
+}
+.lbg{
+  background-color: white;
+}
+.dfont{
+  color: #00a1f2;
+}
+.lfont{
+  color: white;
+}
+.btn{
+background-color: #00a1f2;
+color:#fff;
+padding: .5% 1%;
+border-radius:2px;
+}
+.border-btn{
+  background-color: #fff;
+  color:grey;
+  border:2px solid #00a1f2;
+  padding: .5% 1%;
+  border-radius:2px;
+  box-sizing: border-box;
+  margin: 0px 10px;
+  min-width: 0px;
+  font-weight: 900;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  /* border: 0px; */
+  /* color: white;
+  background-color: #00a1f2; */
+  /* border-radius: 2px; */
+  font-size: 0.9rem;
+  
+}
+
+.heading{
+  font-size:1.5rem;
+  margin: 10px;
+}
+.link{
+  text-decoration: none;
+  color: #00a1f2;
+}
+.highlited{
+  color: #00a1f2;
+  font-weight: 600; 
+}
+.row{
+  display: flex;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.center{
+  text-align: center;
+  justify-content: center;
+}
+.flexSB{
+  justify-content: space-between;
+}
+.flexSA{
+  justify-content: space-around;
+}
+.flexAIC{
+  align-items: center;
+}
+.flexJCC{
+  justify-content: center;
+}
+.flexEnd{
+  justify-content: flex-end;
+}
+.m1{
+  margin: 1%;
+}
+.m2{
+  margin: 2%;
+}
+.m3{
+  margin: 3%;
+}
+.p1{
+  padding: 1%;
+}
+.p2{
+  padding: 2%;
+}
+.p3{
+  padding: 3%;
+}
+.w20{
+  width: 20%;
+}
+.w25{
+  width: 25%;
+}
+.w30{
+  width: 30%;
+}
+.w33{
+  width: 33%;
+}
+.w40{
+  width: 40%;
+}
+.w50{
+  width: 50%;
+}
+.w60{
+  width: 60%;
+}
+.w80{
+  width: 80%;
+}
+.w85{
+  width: 85%;
+}
+.w90{
+  width: 90%;
+}
+.w99{
+  width: 99%;
+}
+.full{
+  width: 100%;
+}
+.brd2
+{
+border-radius: 2px;
+}
+.shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+nav *{
+  color: grey;
+}
+.fontBlack{
+  color: black;
+}
+.clr{
+  color: rgb(62, 52, 52);
+}
+.data{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 3px;
+  padding: 30px;
+}
+.card{
+  border-radius: 3px;
+  margin: 22px;
+  max-height: 380px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.card:hover{
+  min-height: 382px !important;
+  width: 33.1% !important;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.searchbox{
+  /* box-shadow: rgba(44, 44, 44, 0.05) 0px 0px 0px 1px, rgb(122, 122, 122) 0px 0px 0px 1px inset; */
+}
+.searchbox input{
+  height:40px;
+  font-size: 13px;
+}
+.upper .heading{
+  margin: 7px ;
+}
+.xbtn{
+  border-radius:3px;
+  transform: rotate(-90deg);
+  background: rgb(255, 34, 0);
+  padding:8px 16px;
+  color: white;
+}
+.btner{
+  position: fixed;
+  top:50vh;
+  left:-37px !important;
+}
+.mbtner{
+  position: fixed;
+  top:85vh;
+  left:93vw !important;
+}
+.mbtn{
+  border-radius:50%;
+  transform: rotate(-90deg);
+  background: rgb(255, 204, 0);
+  padding:16px 16px;
+  font-size: 30px;
+  color: white;
+}
+.borderbox{
+ box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px, rgb(209 213 219) 0px 0px 0px 1px inset;
+}
+.phide{
+display: none;
+}
+.pfalse{
+font-size: 12px;
+}
+.p5{
+  padding: 5%;
+}
+.sbtn{
+  background-color: grey;
+  border-radius: 3px;
+  color: white;
+}
+.sbtn:hover{
+  background-color: #1e97fa;
+}
+#rc-anchor-alert, .rc-anchor-alert {
+  display: none !important ;
+  color: green !important;
+}
+.brd5{
+  border-radius: 5px;
+}
+.brd10{
+  border-radius: 10px;
+}
+.brd20{
+  border-radius: 30px;
+}
+main{
+  max-width: 98%;
+  padding: 1%;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+.searchbox input{
+  font-size: 20px;
+}
+.searchbox button{
+  border: none;
+  background-color: transparent;
+}
+.searchbox i{
+ font-size: 20px;
+}
+.searchbox i:hover{
+ color:black        
+ }
